@@ -33,7 +33,7 @@ const BlogPage = ({ title }: AppProps) => {
                       </Link>
                     </li>
                     <li>
-                      <Link href='/'>
+                      <Link href='/app'>
                         <a className="hover:text-sky-500 dark:hover:text-sky-400">App</a>
                       </Link>
                     </li>

@@ -28,7 +28,7 @@ const BlogPage = ({ title }: BlogPageProps) => {
                       </Link>
                     </li>
                     <li>
-                      <Link href='/'>
+                      <Link href='/blog'>
                         <a className="hover:text-sky-500 dark:hover:text-sky-400">Blog</a>
                       </Link>
                     </li>
