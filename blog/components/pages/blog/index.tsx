@@ -1,13 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
-import { HomepageProps } from "./types";
+import { BlogPageProps } from "./types";
 import Link from "next/link";
 
-const Homepage = ({ title }: HomepageProps) => {
+const BlogPage = ({ title }: BlogPageProps) => {
   return(
     <div>
       <Head>
-        <title>Homepage: Main Application</title>
+        <title>Blog: You are reading blog zone</title>
         <meta name="description" content="Main container for every zones" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -28,7 +28,7 @@ const Homepage = ({ title }: HomepageProps) => {
                       </Link>
                     </li>
                     <li>
-                      <Link href='/blog'>
+                      <Link href='/'>
                         <a className="hover:text-sky-500 dark:hover:text-sky-400">Blog</a>
                       </Link>
                     </li>
@@ -61,4 +61,4 @@ const Homepage = ({ title }: HomepageProps) => {
   )
 }
 
-export default Homepage
+export default BlogPage
